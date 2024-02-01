@@ -53,7 +53,7 @@ rho = r_train.corr()
 html_path_dataframe = "output_dataframe.html"
 df.to_html(html_path_dataframe, escape=False)
 
-column_sets = [['Adj Close'], ['Low', 'High'], ['Open', 'Close'], ['Volume']]
+column_sets = [['Adj Close', 'Volume'], ['Low', 'High'], ['Open', 'Close']]
 
 html_paths = []
 for i, columns in enumerate(column_sets):
