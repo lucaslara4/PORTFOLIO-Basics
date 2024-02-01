@@ -1,3 +1,5 @@
+### PORTFOLIO OPTIMIZATION -  STOCKS INFORMATION, CORRELATIONS AND PROFITABILITY/VOLATILITY
+
 import pandas as pd
 import numpy as np
 import yfinance as yf
